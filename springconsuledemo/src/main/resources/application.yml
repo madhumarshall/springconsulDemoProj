@@ -1,0 +1,16 @@
+spring:
+  cloud:    
+    consul:
+      discovery:         
+         host: 192.168.18.128
+         port: 8500
+         enabled: true
+         register-health-check: true
+      config:
+        enabled: true
+        prefix: config
+        
+        
+           
+  
+        
